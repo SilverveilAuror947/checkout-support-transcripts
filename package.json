@@ -1,0 +1,20 @@
+{
+  "name": "checkout-support-transcripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/storefront_support.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/fulfillment_decision.test.ts",
+    "demo": "tsx src/checkout_chat_demo.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
